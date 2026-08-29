@@ -32,3 +32,22 @@ These fixtures are synthetic-only and do not include private data, tokens, or ru
   <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/smil-transform.svg">
   <img src="tests/fixtures/motion-probes/smil-animate-motion.svg" alt="motion-picture-fallback">
 </picture>
+## Worker/Camo probe embeds
+
+These are fixed synthetic assets from CommitAtlas issue #174.
+
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-breathe.svg" alt="worker-css-breathe" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-enter.svg" alt="worker-css-enter" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-from-state-control.svg" alt="worker-css-from-state-control" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-offset-path.svg" alt="worker-css-offset-path" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-plot.svg" alt="worker-css-plot" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg" alt="worker-smil-animate-motion" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-plot.svg" alt="worker-smil-plot" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg" alt="worker-smil-transform" width="400" />
+<img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg" alt="worker-reduced-motion-control" width="400" />
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg">
+  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg" alt="worker-motion-picture-fallback" width="400" />
+</picture>
