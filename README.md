@@ -1,4 +1,4 @@
-# commitatlas-motion-probes
+﻿# commitatlas-motion-probes
 Synthetic SVG motion compatibility probes for CommitAtlas issue #113
 
 These fixtures are synthetic-only and do not include private data, tokens, or runtime outputs.
@@ -27,6 +27,50 @@ These fixtures are synthetic-only and do not include private data, tokens, or ru
 <img src="tests/fixtures/motion-probes/smil-plot.svg" alt="smil-plot" width="400" />
 <img src="tests/fixtures/motion-probes/smil-transform.svg" alt="smil-transform" width="400" />
 
+## Raw probe picture delivery
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/css-breathe.svg">
+  <img src="tests/fixtures/motion-probes/css-breathe.svg" alt="raw-picture-css-breathe" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/css-enter.svg">
+  <img src="tests/fixtures/motion-probes/css-enter.svg" alt="raw-picture-css-enter" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/css-from-state-control.svg">
+  <img src="tests/fixtures/motion-probes/css-from-state-control.svg" alt="raw-picture-css-from-state-control" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/css-offset-path.svg">
+  <img src="tests/fixtures/motion-probes/css-offset-path.svg" alt="raw-picture-css-offset-path" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/css-plot.svg">
+  <img src="tests/fixtures/motion-probes/css-plot.svg" alt="raw-picture-css-plot" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/smil-animate-motion.svg">
+  <img src="tests/fixtures/motion-probes/smil-animate-motion.svg" alt="raw-picture-smil-animate-motion" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/smil-plot.svg">
+  <img src="tests/fixtures/motion-probes/smil-plot.svg" alt="raw-picture-smil-plot" width="400" />
+</picture>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="tests/fixtures/motion-probes/reduced-motion-control.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="tests/fixtures/motion-probes/smil-transform.svg">
+  <img src="tests/fixtures/motion-probes/smil-transform.svg" alt="raw-picture-smil-transform" width="400" />
+</picture>
+
+![positive control animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=500&color=22C55E&width=435&lines=CommitAtlas%20motion%20probe%20control)
 ## Worker/Camo probe embeds
 
 These are fixed synthetic assets from CommitAtlas issue #174.
@@ -81,3 +125,4 @@ These are fixed synthetic assets from CommitAtlas issue #174.
   <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg">
   <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg" alt="worker-picture-smil-transform" width="400" />
 </picture>
+
