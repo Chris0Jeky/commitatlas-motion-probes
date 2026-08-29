@@ -27,43 +27,21 @@ These fixtures are synthetic-only and do not include private data, tokens, or ru
 <img src="tests/fixtures/motion-probes/smil-plot.svg" alt="smil-plot" width="400" />
 <img src="tests/fixtures/motion-probes/smil-transform.svg" alt="smil-transform" width="400" />
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-breathe.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-breathe.svg" alt="worker-picture-css-breathe" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-enter.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-enter.svg" alt="worker-picture-css-enter" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-from-state-control.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-from-state-control.svg" alt="worker-picture-css-from-state-control" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-offset-path.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-offset-path.svg" alt="worker-picture-css-offset-path" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-plot.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-plot.svg" alt="worker-picture-css-plot" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg" alt="worker-picture-smil-animate-motion" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-plot.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-plot.svg" alt="worker-picture-smil-plot" width="400" />
-</picture>
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg">
-  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg" alt="worker-picture-smil-transform" width="400" />
-</picture>
+## Worker/Camo probe embeds`n`nThese are fixed synthetic assets from CommitAtlas issue #174.`n`n <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-breathe.svg" alt="worker-css-breathe" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-enter.svg" alt="worker-css-enter" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-from-state-control.svg" alt="worker-css-from-state-control" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-offset-path.svg" alt="worker-css-offset-path" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-plot.svg" alt="worker-css-plot" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg" alt="worker-smil-animate-motion" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-plot.svg" alt="worker-smil-plot" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg" alt="worker-smil-transform" width="400" />
+ <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg" alt="worker-reduced-motion-control" width="400" />
+
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-breathe.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-breathe.svg" alt="worker-picture-css-breathe" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-enter.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-enter.svg" alt="worker-picture-css-enter" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-from-state-control.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-from-state-control.svg" alt="worker-picture-css-from-state-control" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-offset-path.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-offset-path.svg" alt="worker-picture-css-offset-path" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-plot.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/css-plot.svg" alt="worker-picture-css-plot" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-animate-motion.svg" alt="worker-picture-smil-animate-motion" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-plot.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-plot.svg" alt="worker-picture-smil-plot" width="400" />`n</picture>
+<picture>`n  <source media="(prefers-reduced-motion: reduce)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/reduced-motion-control.svg">`n  <source media="(prefers-color-scheme: dark)" srcset="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg">`n  <img src="https://commit-atlas.commit-atlas.workers.dev/api/v1/probes/motion/smil-transform.svg" alt="worker-picture-smil-transform" width="400" />`n</picture>
